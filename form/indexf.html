@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulary</title>
+    <h1>Welcome</h1>
+    <h2>Please enter your information</h2>
+</head>
+<body>
+  <main>
+    <form action="">
+        <label for="name">
+            <span>Whats your name?</span>
+            <input type="text" name="" id="name" autocomplete="name" required>
+        </label>
+        <label for="email">
+            <span>Whats your email?</span>
+            <input type="email" name="" id="email" autocomplete="email" required>
+        </label>
+        <label for="country">
+            <span>Whats your country?</span>
+            <input type="text" name="" id="country" autocomplete="country" required>
+        </label>
+        <label for="age">
+            <span>Whats your age?</span>
+            <input type="text" name="" id="age" required>
+        </label>
+        <span>Select your gender</span>
+        <input list="Gender">
+        <datalist id="Gender">
+            <option value="Male"></option>
+            <option value="Female"></option>
+            <option value="Other"></option>
+        </datalist>
+        <input type="submit" value="Enter">
+        <button>Send</button>
+    </form>
+ </main>
+</body>
+</html>
