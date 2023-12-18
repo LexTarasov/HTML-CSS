@@ -1,0 +1,141 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color:darkslateblue;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(imagenes/fondo-mago-de-hielo.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+header{
+    color: azure;
+    height: 8rem;
+    background-color: black;
+}
+figure img{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    position: absolute;
+    width: 11rem;
+    height: 5rem;
+}
+/*.select{
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+   position: absolute;
+   padding-top: 1.5rem;
+   margin-left: 57.4rem;
+   font-size: 1.4rem;
+   padding-top: 4rem;
+}*/
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+}
+li{
+    list-style: none;
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 0rem;
+}
+
+div img{
+    margin-left: 6rem;
+      height: 15.5rem;
+      width: 12rem;
+      border-radius: 2rem;
+}
+
+footer{
+    margin-top: 5rem;
+    color: azure;
+   
+    height: 7rem;
+
+}
+
+.more-about{
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    padding-top: 1.9rem;
+}
+.contact-us{
+    font-size: 1.7rem;
+    text-align: right;
+    margin-right:2rem ;
+   
+ 
+}
+.c1, .c2, .c3, .c4, .c5, .c6 {
+    width: 100%;
+    min-width: 150px;
+    height: 155px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.c1{
+    background-color: color(from color srgb r g b);
+ }
+.c2{
+    background-color:color(from color srgb r g b) ;
+}
+.c3{
+    background-color: color(from color srgb r g b);
+}
+.c4{
+    background-color:color(from color srgb r g b);
+}
+.c5{
+    background-color:color(from color srgb r g b);
+}
+.c6{
+    background-color: color(from color srgb r g b);
+}
+
+
+
+ /*@media (min-width:600px){
+  .c2, .c3, .c4{
+    width: 50%;
+  }
+} lo pasamos al arch tablet*/
+
+ /*@media (min-width:800px) {
+    .container{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .c1{
+        width: 60%;
+    }
+    .c2{
+        width: 40%;
+    }
+    .c3, .c4{
+        width: 33%;
+    }
+    .c5{
+        width: 34%;
+    } lo pasamos al archivo desktop*/

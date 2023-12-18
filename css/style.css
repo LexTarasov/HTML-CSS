@@ -1,0 +1,19 @@
+p {
+    color: blueviolet;
+    font-size: 30px;
+   }
+
+   /*class*/
+
+   .parrafo {
+ 
+       color: rgb(15, 55, 42);
+
+   }
+
+   /*ID*/
+   #text{
+    color: blueviolet;
+    font-size: 24px;
+
+   }

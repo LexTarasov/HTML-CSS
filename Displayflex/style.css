@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{ /*de esta forma podemos mover las box mas facilmente */
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    width: 20rem;
+    background-color:aquamarine;
+}
+
+.box{
+    width: 15rem;
+    height: 10rem;
+   
+}
+
+figure{
+    margin-left: 60rem;
+   margin-bottom: 100rem;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    text-align: center;
+    border-radius: 1.5rem;
+    margin: 1rem;
+}
+
+.box1{
+    background-color: blueviolet;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: rgb(49, 139, 109);
+}
+.box4{
+    background-color: cornflowerblue;
+}
+.box5{
+    background-color: darkslateblue;
+}
+.box6{
+    background-color: steelblue;
+}

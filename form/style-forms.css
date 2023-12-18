@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin:20px;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    
+}
+
+body{
+    background-image: url(imageform.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+main{
+    text-align: center;
+}
+
+form{
+    font-size: 1.6rem;
+    margin: auto;
+    width: 40rem;
+   
+}
+
+input{
+   border-color:azure; 
+  
+}
+
+#country{
+    width: 15rem;
+}
+
+#send {
+    
+   font-size: 1.6rem;
+   
+   
+}
+
+input:hover{
+    color: black;
+
+}

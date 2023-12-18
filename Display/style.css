@@ -1,0 +1,36 @@
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+.block-element {
+    font-size: 1.8rem;
+    background-color:cornflowerblue;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.paragraph{
+    font-size: 1.8rem;
+    display: block;
+    background-color:darkcyan;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.nav{
+    
+    background-color: peachpuff;
+    padding: 2rem;
+    list-style: none;
+    
+}
+.nav li{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
